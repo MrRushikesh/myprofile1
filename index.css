@@ -51,7 +51,7 @@ a{
 }
 
 .navbarSection{
-    /* color:white; */
+    color:white;
 
     position:absolute;
     background-color:#181818;
@@ -66,11 +66,17 @@ a{
     text-align:center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
-    /* color:aquamarine */
 
 }
 
-
+.btnColor{
+    color:aquamarine;
+    background-color: #181818;
+    /* background-color: white; */
+    height:46px;
+    width:100%;
+    font-size:20px;
+}
 
 .contact{
     border-bottom:1px solid gainsboro;
@@ -287,7 +293,7 @@ a{
 
 /* Work Section */
 .workMain{
-    height:700px;
+    height:713px;
     width:100%;
     /* border:2px solid red; */
     /* position:absolute; */
@@ -296,33 +302,38 @@ a{
 .workMainHeading{
     height:100px;
     width:60%;
-    margin-top:10%;
     /* border:2px solid yellow; */
     color:aquamarine;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 50px;
     font-weight: bold;
     margin-left:4%;
+    margin-top:5%;
     float:left;
 }
 
 
 .workContent{
-    height:500px;
-    width:45%;
+    height:350px;
+    width:40%;
     /* border:2px solid whitesmoke; */
     color:white;
     float:left;
+    margin-left:10%;
+    margin-top:5%;
 
 }
 
-.workHeading{
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color:aquamarine;
-    text-align: center;
-    margin-top:10%;
-    font-weight: bold;
+
+
+.imgSize{
+    height:300px;
+    width:80%;
+    /* border:2px solid aquamarine; */
+}
+
+.imgSize > img {
+    border:4px solid aquamarine;
 }
 
 .workDetail{
@@ -332,11 +343,22 @@ a{
     margin-left:10%;
 }
 
+.caption{
+    text-align: center;
+    color:aquamarine;
+    font-size: 20px;
+
+}
+
+
+
 .workContent2{
-    height:500px;
-    width:45%;
+    margin-top:5%;
+    height:350px;
+    width:40%;
     /* border:2px solid whitesmoke; */
     color:white;
+    margin-right:8%;
     float:right;
 
 }
@@ -363,7 +385,7 @@ a{
 
 
 .contactMain{
-    height:700px;
+    height:710px;
     width:100%;
     /* border:2px solid gold */
 }
@@ -458,6 +480,12 @@ a{
     /* margin-top:-4%; */
     /* border:2px solid red; */
 }
+
+.contactMap > iframe{
+    height:714px;
+    width:100%;
+}
+
 
 
 
